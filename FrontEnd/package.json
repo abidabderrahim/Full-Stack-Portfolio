@@ -1,0 +1,43 @@
+{
+  "name": "portfoliohub",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@nivo/core": "^0.99.0",
+    "@nivo/pie": "^0.99.0",
+    "@uiw/react-markdown-preview": "^5.1.5",
+    "@uiw/react-md-editor": "^4.0.8",
+    "axios": "^1.12.2",
+    "dompurify": "^3.2.6",
+    "froala-editor": "^4.6.2",
+    "jwt-decode": "^4.0.0",
+    "marked": "^16.4.1",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-froala-wysiwyg": "^4.6.2",
+    "react-markdown": "^10.1.0",
+    "react-router-dom": "^7.8.2",
+    "rehype-raw": "^7.0.0",
+    "remark-attr": "^0.11.1",
+    "remark-gfm": "^4.0.1",
+    "turndown": "^7.2.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.33.0",
+    "@types/react": "^19.1.10",
+    "@types/react-dom": "^19.1.7",
+    "@vitejs/plugin-react": "^5.0.0",
+    "eslint": "^9.33.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "globals": "^16.3.0",
+    "vite": "^7.1.2"
+  }
+}

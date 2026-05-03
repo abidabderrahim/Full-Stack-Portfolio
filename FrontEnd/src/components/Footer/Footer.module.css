@@ -1,0 +1,120 @@
+/* Footer */
+
+.footer {
+  margin-top: 50px;
+}
+
+.footer .content {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.footer .content .footerFirst {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.footer .content .footerFirst .title {
+  font-family: var(--font-prim);
+  font-size: 150px;
+  font-weight: 700;
+  line-height: 150px;
+  text-transform: capitalize;
+  color: var(--text-color-prim);
+}
+
+.footer .content .footerFirst .subtitle {
+  max-width: 850px;
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: var(--text-color-sec);
+}
+
+.footer .content .footerFirst .contactUrl {
+  font-family: var(--font-prim);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  text-transform: capitalize;
+  color: var(--button-text);
+  background-color: var(--button-bg);
+  border-radius: 2px;
+  width: max-content;
+  padding: 22px 44px;
+  transition: background-color 0.1s ease-in-out;
+}
+
+.footer .content .footerFirst .contactUrl:hover {
+  color: var(--button-text-hover);
+  background-color: var(--button-bg-hover);
+}
+
+.footer .content .footerLast {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  border-top: 2px solid var(--border-color);
+  padding: 1rem 0;
+}
+
+.footer .content .footerLast .copy {
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: var(--text-color-sec);
+}
+
+.footer .content .footerLast .media {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.footer .content .footerLast .media .link {
+  text-align: center;
+  font-family: var(--font-prim);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: var(--button-text);
+  background-color: var(--button-bg);
+  border-radius: 2px;
+  padding: 8px 14px;
+  transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+  cursor: pointer;
+}
+
+.footer .content .footerLast .media .link:hover {
+  color: var(--button-text-hover);
+  background-color: var(--button-bg-hover);
+}
+
+/* Media Queries */
+
+@media (max-width: 1450px) {
+  .footer .content .footerFirst .title {
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 100px;
+  }
+}
+
+@media (max-width: 850px) {
+  .footer .content .footerFirst .title {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+  }
+}
+/* media */

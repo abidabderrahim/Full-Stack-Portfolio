@@ -1,0 +1,1249 @@
+/* hero */
+
+.homeDashboard {
+  margin-top: 150px;
+}
+
+.homeDashboard .content {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.homeDashboard .content .titleDashboard .title {
+  font-family: var(--font-prim);
+  font-size: 180px;
+  font-weight: 700;
+  line-height: 180px;
+  text-transform: capitalize;
+  color: var(--text-color-prim);
+}
+
+.homeDashboard .content .subtitleDashboard .subtitle {
+  max-width: 650px;
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: var(--text-main);
+}
+
+.homeDashboard .content .buttonsDashboard {
+  display: flex;
+  align-content: center;
+  justify-content: end;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.homeDashboard .content .buttonsDashboard .addPost {
+  text-align: center;
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: var(--button-text);
+  background-color: var(--button-bg);
+  border-radius: 2px;
+  padding: 10px 14px;
+  transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+  cursor: pointer;
+}
+
+.homeDashboard .content .buttonsDashboard .addPost:hover {
+  color: var(--button-text-hover);
+  background-color: var(--button-bg-hover);
+}
+
+.homeDashboard .content .buttonsDashboard .addProject {
+  text-align: center;
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: var(--button-text);
+  background-color: var(--button-bg);
+  border-radius: 2px;
+  padding: 10px 14px;
+  transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+  cursor: pointer;
+}
+
+.homeDashboard .content .buttonsDashboard .addProject:hover {
+  color: var(--button-text-hover);
+  background-color: var(--button-bg-hover);
+}
+
+/* hero */
+
+/* dashboard */
+
+.dashboard {
+  margin-top: 50px;
+}
+
+.dashboard .content {
+  display: flex;
+  flex-direction: column;
+}
+
+/* status */
+
+.status {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  border-radius: 2px;
+  border: 2px solid var(--border-color);
+}
+
+.status .statBox {
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  color: var(--button-text);
+}
+
+.status .statBox:not(:last-child) {
+  border-bottom: 2px solid var(--border-color);
+}
+
+.status .statBox .titleBox {
+  font-family: var(--font-prim);
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: var(--text-color-prim);
+}
+
+.status .statBox .dataBox {
+  font-family: var(--font-prim);
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: var(--text-color-sec);
+}
+
+/* post management */
+
+.postsManagement {
+  margin-top: 50px;
+}
+
+.postsManagement .content {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.postsManagement .content .postsData {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 1rem;
+  border-radius: 2px;
+  border: 2px solid var(--border-color);
+}
+
+.postsManagement .content .postsData .postMTitle {
+  font-family: var(--font-prim);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+  text-transform: capitalize;
+  color: var(--text-color-prim);
+}
+
+.postsManagement .content .postsData .postsNotFound {
+  font-family: var(--font-prim);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: var(--text-main);
+}
+
+.postsManagement .content .postsData .postData {
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.postsManagement .content .postsData .postData:not(:last-child) {
+  border-bottom: 2px solid var(--border-color);
+}
+
+.postsManagement .content .postsData .postData .title {
+  font-family: var(--font-prim);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: var(--text-color-prim);
+}
+
+.postsManagement .content .postsData .postData .comments {
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: var(--text-color-sec);
+}
+
+.postsManagement .content .postsData .postData .views {
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: var(--text-color-sec);
+}
+
+.postsManagement .content .postsData .postData .likes {
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: var(--text-color-sec);
+}
+
+.postsManagement .content .postsData .postData .buttons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.postsManagement .content .postsData .postData .buttons .editBtn,
+.postsManagement .content .postsData .postData .buttons .deleteBtn,
+.postsManagement .content .postsData .postData .buttons .viewBtn {
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: var(--button-text);
+  background-color: var(--button-bg);
+  border-radius: 2px;
+  padding: 8px 14px;
+  transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+  cursor: pointer;
+}
+
+.postsManagement .content .postsData .postData .buttons .editBtn:hover,
+.postsManagement .content .postsData .postData .buttons .deleteBtn:hover,
+.postsManagement .content .postsData .postData .buttons .viewBtn:hover {
+  color: var(--button-text-hover);
+  background-color: var(--button-bg-hover);
+}
+
+.postsManagement .content .postPagination {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.postsManagement .content .postPagination .pageBtn {
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: var(--button-text);
+  background-color: var(--button-bg);
+  padding: 8px 14px;
+  border-radius: 2px;
+  transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+  cursor: pointer;
+}
+
+.postsManagement .content .postPagination .pageBtn.active {
+  color: var(--button-text-hover);
+  background-color: var(--button-bg-hover);
+}
+
+.postsManagement .content .postPagination .pageBtn:hover {
+  color: var(--button-text-hover);
+  background-color: var(--button-bg-hover);
+}
+
+/* subscribers */
+
+.subscribers {
+  margin-top: 50px;
+}
+
+.subscribers .content {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.subscribers .content .subscribesBox {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 1rem;
+  border-radius: 2px;
+  border: 2px solid var(--border-color);
+}
+
+.subscribers .content .subscribesBox .subscribersNotFound {
+  font-family: var(--font-prim);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: var(--text-main);
+}
+
+.subscribers .content .subscribesBox .subscribeTitle {
+  font-family: var(--font-prim);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+  text-transform: capitalize;
+  color: var(--text-color-prim);
+}
+
+.subscribers .content .subscribesBox .subscribeData {
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.subscribers .content .subscribesBox .subscribeData:not(:last-child) {
+  border-bottom: 2px solid var(--border-color);
+}
+
+.subscribers .content .subscribesBox .subscribeData .subscribeMail {
+  font-family: var(--font-prim);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: var(--text-color-prim);
+}
+
+.subscribers .content .subscribesBox .subscribeData .subscribeDate {
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: var(--text-color-sec);
+}
+
+.subscribers .content .subscribesBox .subscribeData .buttons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.subscribers .content .subscribesBox .subscribeData .buttons .messageBtn,
+.subscribers .content .subscribesBox .subscribeData .buttons .removeBtn {
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: var(--button-text);
+  background-color: var(--button-bg);
+  border-radius: 2px;
+  padding: 8px 14px;
+  transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+  cursor: pointer;
+}
+
+.subscribers .content .subscribesBox .subscribeData .buttons .messageBtn:hover,
+.subscribers .content .subscribesBox .subscribeData .buttons .removeBtn:hover {
+  color: var(--button-text-hover);
+  background-color: var(--button-bg-hover);
+}
+
+.subscribers .content .subscribePagination {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.subscribers .content .subscribePagination .pageBtn {
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: var(--button-text);
+  background-color: var(--button-bg);
+  padding: 8px 14px;
+  border-radius: 2px;
+  transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+  cursor: pointer;
+}
+
+.subscribers .content .subscribePagination .pageBtn.active {
+  color: var(--button-text-hover);
+  background-color: var(--button-bg-hover);
+}
+
+.subscribers .content .subscribePagination .pageBtn:hover {
+  color: var(--button-text-hover);
+  background-color: var(--button-bg-hover);
+}
+
+/* users */
+
+.users {
+  margin-top: 50px;
+}
+
+.users .content {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.users .content .usersBox {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 1rem;
+  border-radius: 2px;
+  border: 2px solid var(--border-color);
+}
+
+.users .content .usersBox .usersNotFound {
+  font-family: var(--font-prim);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: var(--text-main);
+}
+
+.users .content .usersBox .userTitle {
+  font-family: var(--font-prim);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+  text-transform: capitalize;
+  color: var(--text-color-prim);
+}
+
+.users .content .usersBox .userData {
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.users .content .usersBox .userData:not(:last-child) {
+  border-bottom: 2px solid var(--border-color);
+}
+
+.users .content .usersBox .userData .userMail {
+  font-family: var(--font-prim);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: var(--text-color-prim);
+}
+
+.users .content .usersBox .userData .buttons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.users .content .usersBox .userData .buttons .messageBtn,
+.users .content .usersBox .userData .buttons .removeBtn {
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: var(--button-text);
+  background-color: var(--button-bg);
+  border-radius: 2px;
+  padding: 8px 14px;
+  transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+  cursor: pointer;
+}
+
+.users .content .usersBox .userData .buttons .messageBtn:hover,
+.users .content .usersBox .userData .buttons .removeBtn:hover {
+  color: var(--button-text-hover);
+  background-color: var(--button-bg-hover);
+}
+
+.users .content .userPagination {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.users .content .userPagination .pageBtn {
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: var(--button-text);
+  background-color: var(--button-bg);
+  padding: 8px 14px;
+  border-radius: 2px;
+  transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+  cursor: pointer;
+}
+
+.users .content .userPagination .pageBtn.active {
+  color: var(--button-text-hover);
+  background-color: var(--button-bg-hover);
+}
+
+.users .content .userPagination .pageBtn:hover {
+  color: var(--button-text-hover);
+  background-color: var(--button-bg-hover);
+}
+
+/* projects management */
+
+.projectsManagement {
+  margin-top: 50px;
+}
+
+.projectsManagement .content {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.projectsManagement .content .projectsData {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 1rem;
+  border-radius: 2px;
+  border: 2px solid var(--border-color);
+}
+
+.projectsManagement .content .projectsData .projectMTitle {
+  font-family: var(--font-prim);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+  text-transform: capitalize;
+  color: var(--text-color-prim);
+}
+
+.projectsManagement .content .projectsData .projectsNotFound {
+  font-family: var(--font-prim);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: var(--text-main);
+}
+
+.projectsManagement .content .projectsData .projectData {
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.projectsManagement .content .projectsData .projectData:not(:last-child) {
+  border-bottom: 2px solid var(--border-color);
+}
+
+.projectsManagement .content .projectsData .projectData .title {
+  font-family: var(--font-prim);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: var(--text-color-prim);
+}
+
+.projectsManagement .content .projectsData .projectData .comments {
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: var(--text-color-sec);
+}
+
+.projectsManagement .content .projectsData .projectData .views {
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: var(--text-color-sec);
+}
+
+.projectsManagement .content .projectsData .projectData .likes {
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: var(--text-color-sec);
+}
+
+.projectsManagement .content .projectsData .projectData .buttons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.projectsManagement .content .projectsData .projectData .buttons .editBtn,
+.projectsManagement .content .projectsData .projectData .buttons .deleteBtn,
+.projectsManagement .content .projectsData .projectData .buttons .viewBtn {
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: var(--button-text);
+  background-color: var(--button-bg);
+  border-radius: 2px;
+  padding: 8px 14px;
+  transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+  cursor: pointer;
+}
+
+.projectsManagement .content .projectsData .projectData .buttons .editBtn:hover,
+.projectsManagement .content .projectsData .projectData .buttons .deleteBtn:hover,
+.projectsManagement .content .projectsData .projectData .buttons .viewBtn:hover {
+  color: var(--button-text-hover);
+  background-color: var(--button-bg-hover);
+}
+
+.projectsManagement .content .postPagination {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.projectsManagement .content .postPagination .pageBtn {
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: var(--button-text);
+  background-color: var(--button-bg);
+  padding: 8px 14px;
+  border-radius: 2px;
+  transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+  cursor: pointer;
+}
+
+.projectsManagement .content .postPagination .pageBtn.active {
+  color: var(--button-text-hover);
+  background-color: var(--button-bg-hover);
+}
+
+.projectsManagement .content .postPagination .pageBtn:hover {
+  color: var(--button-text-hover);
+  background-color: var(--button-bg-hover);
+}
+
+/* Testimonilas */
+
+.testimonials {
+  margin-top: 50px;
+}
+
+.testimonials .content {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.testimonials .content .testimonialsBox {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 1rem;
+  border-radius: 2px;
+  border: 2px solid var(--border-color);
+}
+
+.testimonials .content .testimonialsBox .testimonialNotFound {
+  font-family: var(--font-prim);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: var(--text-main);
+}
+
+.testimonials .content .testimonialsBox .testimonialTitle {
+  font-family: var(--font-prim);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+  text-transform: capitalize;
+  color: var(--text-color-prim);
+}
+
+.testimonials .content .testimonialsBox .headBox .addTestimonial {
+  text-align: center;
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: var(--button-text);
+  background-color: var(--button-bg);
+  border-radius: 2px;
+  padding: 10px 14px;
+  transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+  cursor: pointer;
+}
+
+.testimonials .content .testimonialsBox .headBox .addTestimonial:hover {
+  color: var(--button-text-hover);
+  background-color: var(--button-bg-hover);
+}
+
+.testimonials .content .testimonialsBox .testimonialData {
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.testimonials .content .testimonialsBox .testimonialData:not(:last-child) {
+  border-bottom: 2px solid var(--border-color);
+}
+
+.testimonials .content .testimonialsBox .testimonialData .testimonialHead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.testimonials .content .testimonialsBox .testimonialData .testimonialHead .clientInfo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.testimonials .content .testimonialsBox .testimonialData .testimonialHead .clientPhoto {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--border-color);
+}
+
+.testimonials .content .testimonialsBox .testimonialData .testimonialHead .nameJob {
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonials .content .testimonialsBox .testimonialData .testimonialHead .clientName {
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: var(--text-color-prim);
+}
+
+.testimonials .content .testimonialsBox .testimonialData .testimonialHead .clientJob {
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: var(--text-main);
+}
+
+.testimonials .content .testimonialsBox .testimonialData .testimonialHead .buttons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.testimonials .content .testimonialsBox .testimonialData .testimonialHead .buttons .editBtn,
+.testimonials .content .testimonialsBox .testimonialData .testimonialHead .buttons .removeBtn {
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: var(--button-text);
+  background-color: var(--button-bg);
+  border-radius: 2px;
+  padding: 8px 14px;
+  transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+  cursor: pointer;
+}
+
+.testimonials .content .testimonialsBox .testimonialData .testimonialHead .buttons .editBtn:hover,
+.testimonials .content .testimonialsBox .testimonialData .testimonialHead .buttons .removeBtn:hover {
+  color: var(--button-text-hover);
+  background-color: var(--button-bg-hover);
+}
+
+.testimonials .content .testimonialsBox .testimonialData .testimonialText {
+  max-width: 850px;
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: var(--text-color-sec);
+}
+
+.testimonials .content .testimonialPagination {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.testimonials .content .testimonialPagination .pageBtn {
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: var(--button-text);
+  background-color: var(--button-bg);
+  padding: 8px 14px;
+  border-radius: 2px;
+  transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+  cursor: pointer;
+}
+
+.testimonials .content .testimonialPagination .pageBtn:hover {
+  color: var(--button-text-hover);
+  background-color: var(--button-bg-hover);
+}
+
+.testimonials .content .testimonialPagination .pageBtn.active {
+  color: var(--button-text-hover);
+  background-color: var(--button-bg-hover);
+}
+
+/* chart Post */
+
+.postProgress {
+  margin-top: 50px;
+}
+
+.postProgress .content {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 1rem;
+  border-radius: 2px;
+  border: 2px solid var(--border-color);
+}
+
+.postProgress .content .title {
+  font-family: var(--font-prim);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+  text-transform: capitalize;
+  color: var(--text-color-prim);
+}
+
+.postProgress .content .dropdown {
+  position: relative;
+  width: 100%;
+  font-family: inherit;
+}
+
+.postProgress .content .dropdown .dropdownButton {
+  width: 100%;
+  padding: 18px 20px;
+  outline: none;
+  font-family: var(--font-prim);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: var(--text-color-prim);
+  background-color: var(--background-color);
+  border-radius: 2px;
+  border: 2px solid var(--border-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.postProgress .content .dropdown .dropdownList {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  width: 100%;
+  font-family: var(--font-prim);
+  border-radius: 2px;
+  background-color: var(--background-color);
+  border: 2px solid var(--border-color);
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 50;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.postProgress .content .dropdown .dropdownList::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+.postProgress .content .dropdown .dropdownList .dropdownItem {
+  padding: 10px 14px;
+  font-size: 15px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  color: var(--text-color-prim);
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+}
+
+.postProgress .content .dropdown .dropdownList .dropdownItem:hover {
+  color: var(--button-text);
+  background-color: var(--button-bg);
+}
+
+.postProgress .content .dropdown .dropdownList .dropdownItemActive {
+  color: var(--button-text-hover);
+  background-color: var(--button-bg-hover);
+}
+
+.postProgress .content .progressValue {
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: var(--text-color-sec);
+}
+
+/* chart Project */
+
+.projectProgress {
+  margin-top: 50px;
+}
+
+.projectProgress .content {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 1rem;
+  border-radius: 2px;
+  border: 2px solid var(--border-color);
+}
+
+.projectProgress .content .title {
+  font-family: var(--font-prim);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+  text-transform: capitalize;
+  color: var(--text-color-prim);
+}
+
+.projectProgress .content .dropdown {
+  position: relative;
+  width: 100%;
+  font-family: inherit;
+}
+
+.projectProgress .content .dropdown .dropdownButton {
+  width: 100%;
+  padding: 18px 20px;
+  outline: none;
+  font-family: var(--font-prim);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: var(--text-color-prim);
+  background-color: var(--background-color);
+  border-radius: 2px;
+  border: 2px solid var(--border-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.projectProgress .content .dropdown .dropdownList {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  width: 100%;
+  font-family: var(--font-prim);
+  border-radius: 2px;
+  background-color: var(--background-color);
+  border: 2px solid var(--border-color);
+  max-height: 200px;
+  overflow-y: auto;
+  z-index: 50;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.projectProgress .content .dropdown .dropdownList::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+.projectProgress .content .dropdown .dropdownList .dropdownItem {
+  padding: 10px 14px;
+  font-size: 15px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  color: var(--text-color-prim);
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+}
+
+.projectProgress .content .dropdown .dropdownList .dropdownItem:hover {
+  color: var(--button-text);
+  background-color: var(--button-bg);
+}
+
+.projectProgress .content .dropdown .dropdownList .dropdownItemActive {
+  color: var(--button-text-hover);
+  background-color: var(--button-bg-hover);
+}
+
+.projectProgress .content .progressValue {
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: var(--text-color-sec);
+}
+
+/* Comments */
+
+.comments {
+  margin-top: 50px;
+}
+
+.comments .content {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.comments .content .commentsBox {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 1rem;
+  border-radius: 2px;
+  border: 2px solid var(--border-color);
+}
+
+.comments .content .commentsBox .commentNotFound {
+  font-family: var(--font-prim);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: var(--text-main);
+}
+
+.comments .content .commentsBox .commentTitle {
+  font-family: var(--font-prim);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+  text-transform: capitalize;
+  color: var(--text-color-prim);
+}
+
+.comments .content .commentsBox .commentData {
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.comments .content .commentPagination {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.comments .content .commentPagination .pageBtn {
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: var(--button-text);
+  background-color: var(--button-bg);
+  padding: 8px 14px;
+  border-radius: 2px;
+  transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+  cursor: pointer;
+}
+
+.comments .content .commentPagination .pageBtn:hover {
+  color: var(--button-text-hover);
+  background-color: var(--button-bg-hover);
+}
+
+.comments .content .commentPagination .pageBtn.active {
+  color: var(--button-text-hover);
+  background-color: var(--button-bg-hover);
+}
+
+/* dashboard */
+
+/* footer */
+
+.footer {
+  margin-top: 100px;
+}
+
+.footer .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  border-top: 2px solid var(--border-color);
+  padding: 1rem 0;
+}
+
+.footer .content .copy {
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: var(--text-color-sec);
+}
+
+.footer .content .media {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.footer .content .media .link {
+  text-align: center;
+  font-family: var(--font-prim);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: var(--button-text);
+  background-color: var(--button-bg);
+  border-radius: 2px;
+  padding: 8px 14px;
+  transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+  cursor: pointer;
+}
+
+.footer .content .media .link:hover {
+  color: var(--button-text-hover);
+  background-color: var(--button-bg-hover);
+}
+
+/* footer */
+
+/* media */
+
+@media (max-width: 1450px) {
+  .homeDashboard .content .titleDashboard .title {
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 100px;
+  }
+}
+
+@media (max-width: 850px) {
+  .homeDashboard .content .titleDashboard .title {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px;
+  }
+
+  .postsManagement .content .postsData .postData {
+    padding: 2rem 0;
+    align-items: start;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .subscribers .content .subscribesBox .subscribeData {
+    padding: 2rem 0;
+    align-items: start;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .users .content .usersBox .userData {
+    padding: 2rem 0;
+    align-items: start;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .projectsManagement .content .projectsData .projectData {
+    padding: 2rem 0;
+    align-items: start;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .homeDashboard .content .titleDashboard .title {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px;
+  }
+
+  .testimonials .content .testimonialsBox .headBox {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .testimonials .content .testimonialsBox .testimonialData .testimonialHead {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+/* media */

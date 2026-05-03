@@ -1,0 +1,272 @@
+{
+  "portfolio_config": {
+    "header": {
+      "name": "Portfolio Hub"
+    },
+    "hero": {
+      "my_name": "Abderrahim Abid.",
+      "my_job": "Full Stack Developer & UI-UX Designer From Rabat Morocco - 34.0209° N - 6.8416° W",
+      "my_bio": "I'm a passionate Full Stack Developer and UI-UX Designer from Morocco, skilled in creating visually appealing and functional web solutions. I’m self-taught and continuously growing through real-world projects and online learning. I enjoy solving problems, building user-centered designs, and collaborating with others. Every project I take on reflects my dedication to quality, creativity, and impactful results."
+    },
+    "work": {
+      "title": "Check My Work",
+      "button_text": "Check More Work"
+    },
+    "services": {
+      "title": "Solutions That Work",
+      "items": [
+        {
+          "icon": "ri-shapes-line",
+          "title": "UI-UX Designer",
+          "features": [
+            "Wireframes & Prototypes",
+            "Responsive Mobile Design",
+            "User-Centered Interfaces",
+            "Clean Brand Visuals"
+          ]
+        },
+        {
+          "icon": "ri-terminal-line",
+          "title": "Full Stack",
+          "features": [
+            "Frontend & Backend",
+            "Secure Clean Code",
+            "API Integration Management",
+            "Database Optimization Design"
+          ]
+        },
+        {
+          "icon": "ri-apps-line",
+          "title": "Mobile App",
+          "features": [
+            "Cross-Platform Apps",
+            "User-Friendly Interfaces",
+            "Performance Optimization Speed",
+            "App Store Deployment"
+          ]
+        },
+        {
+          "icon": "ri-stack-line",
+          "title": "Desktop App",
+          "features": [
+            "Custom GUI Design",
+            "Multi-Platform Support",
+            "Secure Stable Applications",
+            "Productivity Automation Tools"
+          ]
+        }
+      ]
+    },
+    "process": {
+      "title": "My Process",
+      "subtitle": "I follow a structured process to ensure every project runs smoothly. From discovery to delivery, each step is carefully planned. This way, your goals turn into a successful, finished product.",
+      "items": [
+        {
+          "number": "[ 01 ]",
+          "title": "Discovery",
+          "description": "I start by understanding your business goals, target audience, and project requirements. I research competitors and gather insights to define clear objectives. This step ensures alignment on vision and expected outcomes. It sets a strong foundation for a successful project."
+        },
+        {
+          "number": "[ 02 ]",
+          "title": "Planning",
+          "description": "I create detailed project plans with timelines, milestones, and deliverables. I design wireframes and user flows to visualize functionality. Technical requirements and resources are identified. This ensures a smooth and organized development process."
+        },
+        {
+          "number": "[ 03 ]",
+          "title": "Design",
+          "description": "I create visually appealing and user-friendly designs that match your brand. High-fidelity mockups and prototypes are developed. Usability and accessibility are prioritized. Feedback is incorporated to refine the final design."
+        },
+        {
+          "number": "[ 04 ]",
+          "title": "Development",
+          "description": "I implement the project using clean and efficient code. Frontend and backend components are integrated seamlessly. APIs and databases are connected and optimized. Functionality is tested as development progresses."
+        },
+        {
+          "number": "[ 05 ]",
+          "title": "Testing",
+          "description": "I thoroughly test the product for bugs, usability, and performance. User experience and responsiveness are verified. Feedback is addressed promptly. The goal is a polished and reliable final product."
+        },
+        {
+          "number": "[ 06 ]",
+          "title": "Delivery & Support",
+          "description": "I deliver the final product along with documentation if needed. Ongoing support and updates are provided. I ensure smooth operation and client satisfaction. Questions and issues are addressed promptly."
+        }
+      ]
+    },
+    "contact": {
+      "title": "Ready to Create?",
+      "subtitle": "Let’s turn your vision into reality. With my expertise in design and development, I craft solutions that blend creativity, usability, and functionality. Every project is built with care and precision to help your brand stand out and achieve real results.",
+      "button_text": "Let's Connect"
+    },
+    "footer": {
+      "copy": "© Abdi Abderrahim. All Rights Reserved 2025.",
+      "social_links": [
+        {
+          "platform": "LinkedIn",
+          "url": "https://linkedin.com/in/yourusername",
+          "icon": "ri-linkedin-line"
+        },
+        {
+          "platform": "Github",
+          "url": "https://github.com/yourusername",
+          "icon": "ri-github-line"
+        },
+        {
+          "platform": "Instagram",
+          "url": "https://instagram.com/yourusername",
+          "icon": "ri-instagram-line"
+        }
+      ]
+    },
+    "about_me": {
+      "photo": "/Images/profile.webp",
+      "name": "Hi I'm Abderrahim Abid.",
+      "title": "Full-Stack Developer & UI-UX Designer",
+      "description": "I am a passionate full-stack developer and UI-UX designer with a keen eye for detail and a love for creating intuitive user experiences. My expertise spans across front-end and back-end technologies, allowing me to build robust and scalable web applications. I thrive on challenges and continuously seek to improve my skills in the ever-evolving tech landscape.",
+      "resumeLink": "http://localhost:5173/Resume/Abid_Abderrahim_Resume.pdf",
+      "items": [
+        {
+          "number": "[ 01 ]",
+          "title": "Experience",
+          "description": [
+            "UI/UX Design: Collaborated with ALX Ventures on the 2pi startup (founded by Nabile Makbol), delivering user-focused design and product prototypes.",
+            "Full-Stack Development: Currently providing end-to-end solutions for clients, blending clean design with functional development."
+          ]
+        },
+        {
+          "number": "[ 02 ]",
+          "title": "Education",
+          "description": [
+            "High School: Earned a High School Diploma in Physics Science from Morocco, which built a strong foundation in problem-solving, analytical thinking, and technical skills.",
+            "ALX Programs: Completed the Professional Foundations Program and the AI Career Essentials Program, and participated in the ALX Gig at a Startup (2pi, 2024), gaining hands-on experience in real-world product development.",
+            "IBM SkillsBuild Certifications: Completed certifications in Web Developer Fundamentals, User Experience Design Fundamentals, Exploring Emerging Technologies, and Cybersecurity Fundamentals."
+          ]
+        },
+        {
+          "number": "[ 03 ]",
+          "title": "Skills",
+          "skills": {
+            "technical": [
+              "UI-UX Design",
+              "Full-Stack Web Applications",
+              "Mobile Applications",
+              "Desktop Applications"
+            ],
+            "soft": [
+              "Communication",
+              "Problem-Solving",
+              "Adaptability",
+              "Collaboration"
+            ]
+          }
+        },
+        {
+          "number": "[ 04 ]",
+          "title": "Additional",
+          "description": [
+            "Languages & Tools: Proficient in C, Python, JavaScript, SQL, MongoDB, and Bash, with hands-on experience using Git, GitHub, and VS Code. Skilled in collaborative tools such as Figma and Canva.",
+            "Design & Databases: Strong background in UI/UX and visual design using Figma, Canva. Experienced with relational and non-relational databases including MySQL, PostgreSQL, and MongoDB.",
+            "Professional & Soft Skills: Known for clear communication, adaptability, reliability, and creative thinking, with the ability to work effectively in diverse teams and dynamic environments."
+          ]
+        }
+      ]
+    },
+    "connect": {
+      "title": "Contact With Me",
+      "subtitle": "Do you have a question, an idea, or a project you’d like to discuss? I’m available to offer guidance, share insights, or collaborate on creative solutions. Feel free to reach out anytime for advice, feedback, or professional services. Let’s connect and work together to turn your vision into something exceptional and impactful.",
+      "form": {
+        "name_placeholder": "Full Name",
+        "email_placeholder": "Email Address",
+        "message_placeholder": "Your Message",
+        "button_text": "Connect"
+      },
+      "about": {
+        "title": "About Me",
+        "name": "Abid Abderrahim",
+        "profile_image": "/Images/profile.webp",
+        "description": "I'm a passionate developer and designer from Morocco with a strong background in web technologies. I specialize in...",
+        "read_more_link": "/About",
+        "signature": "Abid Abderrahim"
+      },
+      "media": {
+        "title": "Media",
+        "links": [
+          {
+            "platform": "Instagram",
+            "url": "https://www.instagram.com/",
+            "icon": "ri-instagram-line"
+          },
+          {
+            "platform": "LinkedIn",
+            "url": "https://www.linkedin.com/",
+            "icon": "ri-linkedin-line"
+          },
+          {
+            "platform": "Twitter",
+            "url": "https://twitter.com/",
+            "icon": "ri-twitter-x-line"
+          },
+          {
+            "platform": "Behance",
+            "url": "https://www.behance.net/",
+            "icon": "ri-behance-line"
+          },
+          {
+            "platform": "Email",
+            "url": "mailto:your.email@example.com",
+            "icon": "ri-mail-line"
+          },
+          {
+            "platform": "Phone",
+            "url": "tel:+212600000000",
+            "icon": "ri-phone-line"
+          }
+        ]
+      }
+    },
+    "blog": {
+      "title": "Ideas & Insights",
+      "subtitle": "Fuel your creativity and growth.",
+      "description": "Discover expert articles, practical guides, and real-world case studies on UI-UX design, web and mobile development, creative workflows, and emerging technologies. Stay inspired, sharpen your skills, and keep ahead in the ever-evolving world of digital innovation."
+    },
+    "seo": {
+      "default": {
+        "title": "Abderrahim Abid - Full Stack Developer & UI-UX Designer",
+        "description": "Portfolio of Abderrahim Abid showcasing full stack development, UI/UX projects, mobile and desktop applications. Explore creative and functional web solutions.",
+        "path": "/",
+        "image": "/Images/profile.webp",
+        "type": "WebPage"
+      },
+      "home": {
+        "title": "Home - Abderrahim Abid Portfolio",
+        "description": "Welcome to the portfolio of Abderrahim Abid. Discover UI/UX designs, web development projects, and real-world applications built with care and creativity.",
+        "path": "/"
+      },
+      "blog": {
+        "title": "Blog - Abderrahim Abid",
+        "description": "Read insights, guides, and case studies from Abderrahim Abid on UI/UX design, full stack development, and digital innovation.",
+        "path": "/blog"
+      },
+      "post": {
+        "title": "Post - Abderrahim Abid",
+        "description": "Detailed article by Abderrahim Abid about web development, design, and creative problem solving.",
+        "path": "/blog/{slug}"
+      },
+      "project": {
+        "title": "Project - Abderrahim Abid",
+        "description": "Details about a specific project created by Abderrahim Abid, including design process, technology stack, and real-world impact.",
+        "path": "/projects/{slug}"
+      },
+      "about": {
+        "title": "About Me - Abderrahim Abid",
+        "description": "Learn more about Abderrahim Abid, a full-stack developer and UI/UX designer from Morocco, with experience in building user-centered, functional applications.",
+        "path": "/about"
+      },
+      "contact": {
+        "title": "Contact - Abderrahim Abid",
+        "description": "Get in touch with Abderrahim Abid for collaborations, freelance projects, or inquiries about UI/UX design and full-stack development services.",
+        "path": "/contact"
+      }
+    }
+  }
+}

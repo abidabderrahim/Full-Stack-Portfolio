@@ -1,0 +1,642 @@
+/* project */
+
+.project {
+  margin-top: 150px;
+}
+
+.project .content {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.project .content .projectImage img {
+  width: 100%;
+  height: 400px;
+  border-radius: 2px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.project .content .projectInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.project .content .projectInfo .title {
+  font-family: var(--font-prim);
+  font-size: 42px;
+  line-height: 58px;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: var(--text-color-prim);
+}
+
+.project .content .projectInfo .type {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.project .content .projectInfo .category,
+.project .content .projectInfo .time {
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: var(--text-color-sec);
+}
+
+.project .content .projectInfo .sep {
+  background-color: var(--text-main);
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+}
+
+.project .content .projectInfo .description {
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-transform: none;
+  color: var(--text-color-sec);
+}
+
+.project .content .projectImages {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.project .content .projectImages img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 2px;
+}
+
+.project .content .projectContent {
+  display: block;
+}
+
+.project .content .projectContent p {
+  font-family: var(--font-prim);
+  margin: 1em 0;
+  line-height: 1.6;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: none;
+  color: var(--text-color-sec);
+}
+
+.project .content .projectContent ul,
+.project .content .projectContent ol {
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-left: 20px;
+  text-transform: none;
+  color: var(--text-color-sec);
+}
+
+.project .content .projectContent h1,
+.project .content .projectContent h2,
+.project .content .projectContent h3,
+.project .content .projectContent h4,
+.project .content .projectContent h5,
+.project .content .projectContent h6 {
+  font-family: var(--font-prim);
+  font-weight: 500;
+  text-transform: capitalize;
+  color: var(--text-color-prim);
+}
+
+.project .content .projectContent pre {
+  background: var(--button-bg);
+  color: var(--button-text);
+  padding: 1rem;
+  border-radius: 2px;
+  overflow-x: auto;
+  font-family: var(--font-prim);
+  font-size: 14px;
+  line-height: 1.5;
+  white-space: pre-wrap;
+}
+
+.project .content .projectContent img {
+  width: 450px;
+  height: 250px;
+  object-fit: cover;
+  display: block;
+  border-radius: 2px;
+}
+
+.errorMessage {
+  font-family: var(--font-prim);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: var(--text-main);
+}
+
+.project .content .projectTools {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.project .content .projectTools .title {
+  font-family: var(--font-prim);
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: var(--text-color-prim);
+}
+
+.project .content .projectTools .toolsList {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.project .content .projectTools .tool {
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: var(--button-text);
+  background-color: var(--button-bg);
+  border-radius: 2px;
+  padding: 8px 12px;
+}
+
+.project .content .projectLink {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.project .content .projectLink .title {
+  font-family: var(--font-prim);
+  font-size: 28px;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: var(--text-color-prim);
+}
+
+.project .content .projectLink .link {
+  font-family: var(--font-prim);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  text-transform: capitalize;
+  color: var(--text-color-sec);
+  text-decoration: underline;
+  transition: color 0.3s ease-in-out;
+}
+
+.project .content .projectLink .link:hover {
+  color: var(--text-color-prim);
+}
+
+/* project */
+
+/* project stats */
+
+.projectStats {
+  margin-top: 25px;
+}
+
+.projectStats .content {
+  padding: 1rem;
+  border-top: 2px solid var(--border-color);
+  border-bottom: 2px solid var(--border-color);
+}
+
+.projectStats .content .projectActions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.projectStats .content .projectActions .likeBtn {
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--button-text);
+  cursor: pointer;
+  background-color: var(--button-bg);
+  border-radius: 2px;
+  padding: 8px 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  border: none;
+  transition: background-color 0.1s ease-in-out;
+}
+
+.projectStats .content .projectActions .likeBtn:hover {
+  color: var(--button-text-hover);
+  background-color: var(--button-bg-hover);
+}
+
+.projectStats .content .projectActions .shareBtn {
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--button-text);
+  cursor: pointer;
+  background-color: var(--button-bg);
+  border-radius: 2px;
+  padding: 8px 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  border: none;
+  transition: background-color 0.1s ease-in-out;
+}
+
+.projectStats .content .projectActions .shareBtn:hover {
+  color: var(--button-text-hover);
+  background-color: var(--button-bg-hover);
+}
+
+.projectStats .content .projectActions .views {
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--button-text);
+  background-color: var(--button-bg);
+  border-radius: 2px;
+  padding: 8px 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  border: none;
+}
+
+/* project stats */
+
+/* testimonials */
+
+.testimonials {
+  margin-top: 25px;
+}
+
+.testimonials .content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.testimonials .content .title {
+  font-family: var(--font-prim);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+  text-transform: capitalize;
+  color: var(--text-color-prim);
+}
+
+.testimonials .content .notestimonialMessage {
+  font-family: var(--font-prim);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: var(--text-main);
+}
+
+.testimonials .content .nologintestimonialMessage {
+  font-family: var(--font-prim);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: var(--text-main);
+}
+
+.testimonials .content .alreadyTestimonialMessage {
+  font-family: var(--font-prim);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: var(--text-main);
+}
+
+.testimonials .content .adminNote {
+  font-family: var(--font-prim);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: var(--text-main);
+}
+
+.testimonials .content .testimonialBtn {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.testimonials .content .testimonialBtn .addTestimonialBtn {
+  font-family: var(--font-prim);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  text-transform: capitalize;
+  color: var(--button-text);
+  background-color: var(--button-bg);
+  border-radius: 2px;
+  width: max-content;
+  padding: 22px 44px;
+  transition: background-color 0.1s ease-in-out;
+}
+
+.testimonials .content .testimonialBtn .addTestimonialBtn:hover {
+  color: var(--button-text-hover);
+  background-color: var(--button-bg-hover);
+}
+
+.testimonials .content  .testimonialCard {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.testimonials .content  .testimonialCard .testimonialUser {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 1rem;
+  border-radius: 2px;
+  border: 2px solid var(--border-color);
+}
+
+.testimonials .content .testimonialCard .testimonialUser .testimonialImage {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  border: 2px solid var(--border-color);
+  object-fit: cover;
+}
+
+.testimonials .content .testimonialCard .testimonialUser .testimonialText {
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  color: var(--text-color-sec);
+  text-transform: capitalize;
+}
+
+.testimonials .content .testimonialCard .testimonialUser .clientInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.testimonials .content .testimonialCard .testimonialUser .clientInfo .testimonialName,
+.testimonials .content .testimonialCard .testimonialUser .clientInfo .testimonialJob {
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: var(--text-main);
+}
+
+.testimonials .content .testimonialCard  .replies {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.testimonials .content .testimonialCard .replies .replyCard {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 1rem;
+  margin-left: 1rem;
+  border-radius: 2px;
+  border: 2px solid var(--border-color);
+}
+
+.testimonials .content .testimonialCard .replies .replyCard .replyAdmin {
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: var(--text-main);
+}
+
+.testimonials .content .testimonialCard .replies .replyCard .replyMsg {
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  color: var(--text-color-sec);
+  text-transform: capitalize;
+}
+
+.testimonials .content .testimonialCard .replies .replyBtn {
+  font-family: var(--font-prim);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  text-transform: capitalize;
+  color: var(--button-text);
+  background-color: var(--button-bg);
+  border-radius: 2px;
+  width: max-content;
+  padding: 10px 14px;
+  transition: background-color 0.1s ease-in-out;
+}
+
+.testimonials .content .testimonialCard .replies .replyBtn:hover {
+  color: var(--button-text-hover);
+  background-color: var(--button-bg-hover);
+}
+
+/* testimonials */
+
+/* related Section */
+
+.relateds {
+  margin-top: 50px;
+}
+
+.relateds .content {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.relateds .content .title {
+  font-family: var(--font-prim);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 28px;
+  text-transform: capitalize;
+  color: var(--text-color-prim);
+}
+
+.relateds .content .projects {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 35px;
+}
+
+.relateds .messageLoading {
+  font-family: var(--font-prim);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: var(--text-main);
+}
+
+.relateds .content .projects .relatedProject {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.relateds .content .projects .relatedProject .imageWrapper {
+  position: relative;
+  overflow: hidden;
+  cursor: none;
+}
+
+.relateds .content .projects .relatedProject .postImage {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  display: block;
+  border-radius: 2px;
+}
+
+.relateds .content .projects .relatedProject .cursorCircle {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: var(--background-color);
+  color: var(--text-color-prim);
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  transform: scale(0.5);
+}
+
+.relateds .content .projects .relatedProject:hover .cursorCircle {
+  opacity: 1;
+}
+
+.relateds .content .projects .relatedProject .postInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.relateds .content .projects .relatedProject .postInfo .postMeta {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.relateds .content .projects .relatedProject .postInfo .postMeta .postCategory {
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: var(--text-color-sec);
+}
+
+.relateds .content .projects .relatedProject .postInfo .postMeta .sep {
+  width: 5px;
+  height: 5px;
+  border-radius: 100%;
+  background-color: var(--text-main);
+}
+
+.relateds .content .projects .relatedProject .postInfo .postMeta .postTime {
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: var(--text-color-sec);
+}
+
+.relateds .content .projects .relatedProject .postInfo .postTitle {
+  font-family: var(--font-prim);
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: var(--text-color-prim);
+}
+
+.relateds .content .projects .relatedProject .postInfo .postDesc {
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  max-width: 850px;
+  text-transform: capitalize;
+  color: var(--text-color-sec);
+}
+
+/* related Section */
+
+/* media */
+
+@media (max-width: 1450px) {
+  .relateds .content .projects {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 850px) {
+  .project .content .projectInfo .title {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .project .content .projectImages {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* media */

@@ -1,0 +1,597 @@
+/* post */
+
+.post {
+  margin-top: 150px;
+}
+
+.post .content {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.post .content .postImage img {
+  width: 100%;
+  max-width: 850px;
+  height: 350px;
+  border-radius: 2px;
+  object-fit: cover;
+  display: block;
+}
+
+.post .content .postInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.post .content .postInfo .title {
+  font-family: var(--font-prim);
+  font-size: 42px;
+  line-height: 58px;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: var(--text-color-prim);
+}
+
+.post .content .postInfo .type {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.post .content .postInfo .type .category,
+.post .content .postInfo .type .time {
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: var(--text-color-sec);
+}
+
+.post .content .postInfo .type .sep {
+  background-color: var(--text-main);
+  width: 5px;
+  height: 5px;
+  border-radius: 100%;
+}
+
+.post .content .postInfo .description {
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: var(--text-color-sec);
+}
+
+.post .content .postContent {
+  display: block;
+}
+
+.post .content .postContent p {
+  font-family: var(--font-prim);
+  margin: 1em 0;
+  line-height: 1.6;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: none;
+  color: var(--text-color-sec);
+}
+
+.post .content .postContent ul,
+.post .content .postContent ol {
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-left: 20px;
+  text-transform: none;
+  color: var(--text-color-sec);
+}
+
+.post .content .postContent h1,
+.post .content .postContent h2,
+.post .content .postContent h3,
+.post .content .postContent h4,
+.post .content .postContent h5,
+.post .content .postContent h6 {
+  font-family: var(--font-prim);
+  font-weight: 500;
+  text-transform: capitalize;
+  color: var(--text-color-prim);
+}
+
+.post .content .postContent pre {
+  background: var(--button-bg);
+  color: var(--button-text);
+  padding: 1rem;
+  border-radius: 2px;
+  overflow-x: auto;
+  font-family: var(--font-prim);
+  font-size: 14px;
+  line-height: 1.5;
+  white-space: pre-wrap;
+}
+
+.post .content .postContent img {
+  width: 450px;
+  height: 250px;
+  object-fit: cover;
+  display: block;
+  border-radius: 2px;
+}
+
+.errorMessage {
+  font-family: var(--font-prim);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: var(--text-main);
+}
+
+/* post */
+
+/* post stats */
+
+.postStats {
+  margin-top: 25px;
+}
+
+.postStats .content {
+  padding: 1rem;
+  border-top: 2px solid var(--border-color);
+  border-bottom: 2px solid var(--border-color);
+}
+
+.postStats .content .postActions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.postStats .content .postActions .likeBtn {
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--button-text);
+  cursor: pointer;
+  background-color: var(--button-bg);
+  border-radius: 2px;
+  padding: 8px 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  border: none;
+  transition: background-color 0.1s ease-in-out;
+}
+
+.postStats .content .postActions .likeBtn:hover {
+  color: var(--button-text-hover);
+  background-color: var(--button-bg-hover);
+}
+
+.postStats .content .postActions .shareBtn {
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--button-text);
+  cursor: pointer;
+  background-color: var(--button-bg);
+  border-radius: 2px;
+  padding: 8px 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  border: none;
+  transition: background-color 0.1s ease-in-out;
+}
+
+.postStats .content .postActions .shareBtn:hover {
+  color: var(--button-text-hover);
+  background-color: var(--button-bg-hover);
+}
+
+.postStats .content .postActions .views {
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--button-text);
+  background-color: var(--button-bg);
+  border-radius: 2px;
+  padding: 8px 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  border: none;
+}
+
+/* post stats */
+
+/* comments */
+
+.commentsSection {
+  margin-top: 25px;
+}
+
+.commentsSection .content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.commentsSection .content .title {
+  font-family: var(--font-prim);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+  text-transform: capitalize;
+  color: var(--text-color-prim);
+}
+
+.commentsSection .content .nocommentMessage {
+  font-family: var(--font-prim);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: var(--text-main);
+}
+
+.commentsSection .content .logincommentMessage {
+  font-family: var(--font-prim);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: var(--text-main);
+}
+
+.commentsSection .content .comment {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.commentsSection .content .comment .commentUser {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 1rem;
+  border-radius: 2px;
+  border: 2px solid var(--border-color);
+}
+
+.commentsSection .content .comment .commentUser .commentInfo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.commentsSection .content .comment .commentUser .commentInfo .avatarProfile {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid var(--border-color);
+}
+
+.commentsSection .content .comment .commentUser .userInfo {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.commentsSection .content .comment .commentUser .commentAuthor,
+.commentsSection .content .comment .commentUser .commentJob {
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: var(--text-main);
+}
+
+.commentsSection .content .comment .commentUser .commentText {
+  font-family: var(--font-prim);
+  max-width: 550px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+  text-transform: capitalize;
+  color: var(--text-color-sec);
+}
+
+.commentsSection .content .replies {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-left: 1rem;
+}
+
+.commentsSection .content .replies .reply {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 1rem;
+  border-radius: 2px;
+  border: 2px solid var(--border-color);
+}
+
+.commentsSection .content .replies .reply .replyAuthor {
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: var(--text-main);
+}
+
+.commentsSection .content .replies .reply .replyText {
+  font-family: var(--font-prim);
+  max-width: 550px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+  text-transform: capitalize;
+  color: var(--text-color-sec);
+}
+
+.commentsSection .content .replyBtn {
+  font-family: var(--font-prim);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  text-transform: capitalize;
+  color: var(--button-text);
+  background-color: var(--button-bg);
+  border-radius: 2px;
+  width: max-content;
+  padding: 10px 14px;
+  transition: background-color 0.1s ease-in-out;
+}
+
+.commentsSection .content .replyBtn:hover {
+  color: var(--button-text-hover);
+  background-color: var(--button-bg-hover);
+}
+
+.commentsSection .content .addComment {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+}
+
+.commentsSection .content .addComment .input {
+  width: 100%;
+  padding: 18px 20px;
+  font-size: 1rem;
+  outline: none;
+  font-family: var(--font-prim);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: var(--text-color-prim);
+  background-color: var(--background-color);
+  border-radius: 2px;
+  border: 2px solid var(--border-color);
+}
+
+.commentsSection .content .addComment .textarea {
+  width: 100%;
+  height: 150px;
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  background-color: var(--background-color);
+  border: 2px solid var(--border-color);
+  color: var(--text-color-prim);
+  padding: 12px 14px;
+  resize: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.commentsSection .content .addComment .charCount {
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-left: 20px;
+  text-transform: capitalize;
+  color: var(--text-color-sec);
+}
+
+.commentsSection .content .addComment .submitBtn {
+  width: 100%;
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-transform: capitalize;
+  color: var(--button-text);
+  background-color: var(--button-bg);
+  padding: 12px 14px;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+}
+
+.commentsSection .content .addComment .submitBtn:hover {
+  color: var(--button-text-hover);
+  background-color: var(--button-bg-hover);
+}
+
+/* comments */
+
+/* related Section */
+
+.relateds {
+  margin-top: 50px;
+}
+
+.relateds .content {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.relateds .content .title {
+  font-family: var(--font-prim);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 28px;
+  text-transform: capitalize;
+  color: var(--text-color-prim);
+}
+
+.relateds .content .posts {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 35px;
+}
+
+.relateds .messageLoading {
+  font-family: var(--font-prim);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: var(--text-main);
+}
+
+.relateds .content .posts .relatedPost {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.relateds .content .posts .relatedPost .imageWrapper {
+  position: relative;
+  overflow: hidden;
+  cursor: none;
+}
+
+.relateds .content .posts .relatedPost .postImage {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  display: block;
+  border-radius: 2px;
+}
+
+.relateds .content .posts .relatedPost .cursorCircle {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: var(--background-color);
+  color: var(--text-color-prim);
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  transform: scale(0.5);
+}
+
+.relateds .content .posts .relatedPost:hover .cursorCircle {
+  opacity: 1;
+}
+
+.relateds .content .posts .relatedPost .postInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.relateds .content .posts .relatedPost .postInfo .postMeta {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.relateds .content .posts .relatedPost .postInfo .postMeta .postCategory {
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: var(--text-color-sec);
+}
+
+.relateds .content .posts .relatedPost .postInfo .postMeta .sep {
+  width: 5px;
+  height: 5px;
+  border-radius: 100%;
+  background-color: var(--text-main);
+}
+
+.relateds .content .posts .relatedPost .postInfo .postMeta .postTime {
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: var(--text-color-sec);
+}
+
+.relateds .content .posts .relatedPost .postInfo .postTitle {
+  font-family: var(--font-prim);
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: var(--text-color-prim);
+}
+
+.relateds .content .posts .relatedPost .postInfo .postDesc {
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  max-width: 850px;
+  text-transform: capitalize;
+  color: var(--text-color-sec);
+}
+
+/* related Section */
+
+/* media */
+
+@media (max-width: 1450px) {
+  .relateds .content .posts {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 850px) {
+  .post .content .postInfo .title {
+    font-size: 28px;
+    line-height: 36px;
+  }
+}
+
+/* media */

@@ -1,0 +1,707 @@
+/* hero */
+
+.hero {
+  margin-top: 150px;
+}
+
+.hero .content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.hero .content .myName {
+  font-family: var(--font-prim);
+  font-size: 150px;
+  font-weight: 700;
+  line-height: 150px;
+  text-transform: capitalize;
+  color: var(--text-color-prim);
+}
+
+.hero .content .myJob {
+  font-family: var(--font-prim);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: var(--text-main);
+}
+
+.hero .content .myBio {
+  max-width: 1050px;
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: var(--text-color-sec);
+}
+
+/* hero */
+
+/* work */
+
+.work {
+  margin-top: 50px;
+}
+
+.work .content {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.work .content .title {
+  font-family: var(--font-prim);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+  text-transform: capitalize;
+  color: var(--text-color-prim);
+}
+
+.work .content .projects {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  gap: 35px;
+}
+
+.work .content .projects .messageLoading {
+  font-family: var(--font-prim);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: var(--text-main);
+}
+
+.work .content .projects .project {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.work .content .projects .project .imageWrapper {
+  position: relative;
+  overflow: hidden;
+  cursor: none;
+}
+
+.work .content .projects .project .imageWrapper .projectImage {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  display: block;
+  border-radius: 2px;
+}
+
+.work .content .projects .project .cursorCircle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: var(--background-color);
+  color: var(--text-color-prim);
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  justify-content: center;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.3s ease-out;
+}
+
+.work .content .projects .project:hover .cursorCircle {
+  opacity: 1;
+}
+
+.work .content .projects .project .projectInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.work .content .projects .project .projectInfo .projectRoleTime {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.work .content .projects .project .projectInfo .projectRoleTime .projectCategory{
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: var(--text-color-sec);
+}
+
+.work .content .projects .project .projectInfo .projectRoleTime .sep {
+  width: 5px;
+  height: 5px;
+  border-radius: 100%;
+  background-color: var(--text-main);
+}
+
+.work .content .projects .project .projectInfo .projectRoleTime .projectTime {
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: var(--text-color-sec);
+}
+
+.work .content .projects .project .projectInfo .projectTitle {
+  font-family: var(--font-prim);
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: var(--text-color-prim);
+}
+
+.work .content .projects .project .projectInfo .projectDesc {
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  max-width: 850px;
+  text-transform: capitalize;
+  color: var(--text-color-sec);
+}
+
+.work .content .loadButton {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.work .content .loadButton .moreProjects {
+  font-family: var(--font-prim);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  text-transform: capitalize;
+  color: var(--button-text);
+  background-color: var(--button-bg);
+  border-radius: 2px;
+  width: max-content;
+  padding: 22px 44px;
+  transition: background-color 0.1s ease-in-out;
+}
+
+.work .content .loadButton .moreProjects:hover {
+  color: var(--button-text-hover);
+  background-color: var(--button-bg-hover);
+}
+
+/* work */
+
+/* services */
+
+.services {
+  margin-top: 50px;
+}
+
+.services .content {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.services .content .title {
+  font-family: var(--font-prim);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+  text-transform: capitalize;
+  color: var(--text-color-prim);
+}
+
+.services .content .myServices {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  gap: 20px;
+}
+
+.services .content .myServices .service {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 16px;
+  border-radius: 2px;
+  border: 2px solid var(--border-color);
+}
+
+.services .content .myServices .service .serviceTitle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.services .content .myServices .service .serviceTitle i {
+  font-size: 28px;
+  font-weight: 500;
+  color: var(--text-color-prim);
+}
+
+.services .content .myServices .service .serviceTitle .myTitle {
+  font-family: var(--font-prim);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 28px;
+  text-transform: capitalize;
+  color: var(--text-color-prim);
+}
+
+.services .content .myServices .service .serviceFeatures {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.services .content .myServices .service .serviceFeatures .feature {
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: var(--text-color-sec);
+}
+
+/* services */
+
+/* testimonials */
+
+.testimonials {
+  margin-top: 50px;
+}
+
+.testimonials .content {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.testimonials .content .title {
+  font-family: var(--font-prim);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 36px;
+  text-transform: capitalize;
+  color: var(--text-color-prim);
+}
+
+.testimonials .content .myTestimonials .testimonial {
+  flex-shrink: 0;
+  max-width: 650px;
+  border: 2px solid var(--border-color);
+  border-radius: 2;
+  padding: 2rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.testimonials .content .myTestimonials .messageLoading {
+  font-family: var(--font-prim);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: var(--text-main);
+}
+
+.testimonials .content .myTestimonials .testimonial .testImage {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.testimonials .content .myTestimonials .testimonial .testimonialMessage {
+  max-width: 550px;
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  color: var(--text-color-sec);
+  text-transform: capitalize;
+}
+
+.testimonials .content .myTestimonials .testimonial .details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.testimonials .content .myTestimonials .testimonial .details .clientName {
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: var(--text-main);
+}
+
+.testimonials .content .myTestimonials .testimonial .details .clientJob {
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: var(--text-main);
+}
+
+.testimonials .content .myTestimonials .shadowLeft,
+.testimonials .content .myTestimonials .shadowRight {
+  position: absolute;
+  top: 0;
+  width: 50px;
+  height: 100%;
+  z-index: 5;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.testimonials .content .myTestimonials .shadowLeft {
+  left: 0;
+  background: linear-gradient(to right, var(--background-color), transparent);
+}
+
+.testimonials .content .myTestimonials .shadowRight {
+  right: 0;
+  background: linear-gradient(to left, var(--background-color), transparent);
+}
+
+/* testimonials */
+
+/* process */
+
+.processSection {
+  margin-top: 50px;
+}
+
+.processSection .content {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.processSection .content .title {
+  font-family: var(--font-prim);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 28px;
+  text-transform: capitalize;
+  color: var(--text-color-prim);
+}
+
+.processSection .content .subtitle {
+  max-width: 850px;
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: var(--text-color-sec);
+}
+
+.processSection .content .myProcesss {
+  display: flex;
+  flex-direction: column;
+}
+
+.processSection .content .myProcesss .process {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px 16px;
+  border-top: 2px solid var(--border-color);
+}
+
+.processSection .content .myProcesss .process:last-child {
+  border-bottom: 2px solid var(--border-color);
+}
+
+.processSection .content .myProcesss .process .processHead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.processSection .content .myProcesss .process .processHead .headTitle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.processSection .content .myProcesss .process .processHead .processNumber {
+  font-family: var(--font-prim);
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: var(--text-color-sec);
+}
+
+.processSection .content .myProcesss .process .processHead .processTitle {
+  font-family: var(--font-prim);
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: var(--text-color-prim);
+}
+
+.processSection .content .myProcesss .process .processHead .processOpen i {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 22px;
+  color: var(--text-color-sec);
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+
+.processSection
+  .content
+  .myProcesss
+  .process
+  .processHead
+  .processOpen
+  i:hover {
+  color: var(--text-color-prim);
+}
+
+.processSection .content .myProcesss .process .processDescription {
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  max-width: 850px;
+  text-transform: capitalize;
+  color: var(--text-color-sec);
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.processSection .content .myProcesss .process .processDescription.open {
+  max-height: 300px;
+}
+
+/* process */
+
+/* blog */
+
+.blog {
+  margin-top: 50px;
+}
+
+.blog .content {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.blog .content .title {
+  font-family: var(--font-prim);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 28px;
+  text-transform: capitalize;
+  color: var(--text-color-prim);
+}
+
+.blog .content .posts {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 35px;
+}
+
+.blog .content .posts .messageLoading {
+  font-family: var(--font-prim);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: var(--text-main);
+}
+
+.blog .content .posts .post {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.blog .content .posts .post .imageWrapper {
+  position: relative;
+  overflow: hidden;
+  cursor: none;
+}
+
+.blog .content .posts .post .postImage {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  display: block;
+  border-radius: 2px;
+}
+
+.blog .content .posts .post .cursorCircle {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: var(--background-color);
+  color: var(--text-color-prim);
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  transform: scale(0.5);
+}
+
+.blog .content .posts .post:hover .cursorCircle {
+  opacity: 1;
+}
+
+.blog .content .posts .post .postInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.blog .content .posts .post .postInfo .postMeta {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.blog .content .posts .post .postInfo .postMeta .postCategory {
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: var(--text-color-sec);
+}
+
+.blog .content .posts .post .postInfo .postMeta .sep {
+  width: 5px;
+  height: 5px;
+  border-radius: 100%;
+  background-color: var(--text-main);
+}
+
+.blog .content .posts .post .postInfo .postMeta .postTime {
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: var(--text-color-sec);
+}
+
+.blog .content .posts .post .postInfo .postTitle {
+  font-family: var(--font-prim);
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 22px;
+  text-transform: capitalize;
+  color: var(--text-color-prim);
+}
+
+.blog .content .posts .post .postInfo .postDesc {
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  max-width: 850px;
+  text-transform: capitalize;
+  color: var(--text-color-sec);
+}
+
+.blog .content .blogLink {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.blog .content .blogLink .link {
+  font-family: var(--font-prim);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  text-transform: capitalize;
+  color: var(--button-text);
+  background-color: var(--button-bg);
+  border-radius: 2px;
+  width: max-content;
+  padding: 22px 44px;
+  transition: background-color 0.1s ease-in-out;
+}
+
+.blog .content .blogLink .link:hover {
+  color: var(--button-text-hover);
+  background-color: var(--button-bg-hover);
+}
+
+/* blog */
+
+/* media */
+
+@media (max-width: 1450px) {
+  .hero .content .myName {
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 100px;
+  }
+
+  .work .content .projects {
+    grid-template-columns: 1fr;
+  }
+  
+  .services .content .myServices {
+    grid-template-columns: 1fr;
+  }
+
+  .blog .content .posts {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 850px) {
+  .hero .content .myName {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+  }
+
+  .testimonial {
+    width: 100%;
+  }
+
+  .shadowLeft,
+  .shadowRight {
+    width: 20px;
+  }
+}
+
+/* media */

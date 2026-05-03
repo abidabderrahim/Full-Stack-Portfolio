@@ -1,0 +1,104 @@
+/* root */
+
+@import url("https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+:root {
+  --background-color: rgb(19, 20, 21);
+  --text-color-prim: rgb(251, 251, 254);
+  --text-color-sec: rgb(189, 189, 189);
+  --text-main: rgb(255, 84, 60);
+  --border-color: rgb(26, 26, 29);
+  --button-bg: rgb(251, 251, 254);
+  --button-text: rgb(19, 20, 21);
+  --button-bg-hover: rgb(255, 84, 60);
+  --button-text-hover: rgb(251, 251, 254);
+  --font-prim: "Inria Sans", sans-serif;
+}
+
+/* root */
+
+/* default values */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+input,
+button {
+  border: none;
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+img {
+  height: auto;
+}
+
+.container {
+  width: 100%;
+  max-width: 1450px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background-color);
+  user-select: none;
+}
+
+/* theme light */
+
+body.light{
+  --background-color: rgb(252, 252, 253);
+  --text-color-prim: rgb(45, 44, 44);
+  --text-color-sec: rgb(123, 123, 138);
+  --text-main: rgb(17, 140, 255);
+  --border-color: rgb(242, 242, 242);
+  --button-bg: rgb(43, 42, 42);
+  --button-text: rgb(251, 251, 254);
+  --button-bg-hover: rgb(17, 140, 255);
+  --button-text-hover: rgb(251, 251, 254);
+  --font-prim: "Inria Sans", sans-serif;
+  --font-sec: "Saira", sans-serif;
+}
+
+/* theme light */
+
+/* default values */
+
+/* media */
+
+@media (max-width: 1450px) {
+  .container {
+    max-width: 850px;
+  }
+}
+
+@media (max-width: 850px) {
+  .container {
+    max-width: 450px;
+  }
+}
+
+/* media */

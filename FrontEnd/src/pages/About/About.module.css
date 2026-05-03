@@ -1,0 +1,187 @@
+/* about */
+
+.about {
+  margin-top: 150px;
+}
+
+.about .content .myProfile {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 25px;
+}
+
+.about .content .myProfile .profileImage .image {
+  display: block;
+  width: 400px;
+  height: 500px;
+  object-position: left center;
+  object-fit: cover;
+  image-rendering: auto;
+  border-radius: 2px;
+}
+
+.about .content .myProfile .profileInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.about .content .myProfile .profileInfo .name {
+  font-family: var(--font-prim);
+  font-size: 60px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: var(--text-color-prim);
+}
+
+.about .content .myProfile .profileInfo .title {
+  font-family: var(--font-prim);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: var(--text-main);
+}
+
+.about .content .myProfile .profileInfo .description {
+  max-width: 850px;
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: var(--text-color-sec);
+}
+
+.about .content .myProfile .profileInfo .aboutMe {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.about .content .myProfile .profileInfo .aboutMe .aboutMeInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px 0px;
+  border-top: 2px solid var(--border-color);
+}
+
+.about .content .myProfile .profileInfo .aboutMe .aboutMeInfo:last-of-type {
+  border-bottom: 2px solid var(--border-color);
+}
+
+.about .content .myProfile .profileInfo .aboutMe .aboutMeInfo .aboutMeInfoHead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about .content .myProfile .profileInfo .aboutMe .aboutMeInfo .aboutMeInfoHead .titleBlock {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.about .content .myProfile .profileInfo .aboutMe .aboutMeInfo .aboutMeInfoHead .infoNumber {
+  font-family: var(--font-prim);
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 28px;
+  text-transform: capitalize;
+  color: var(--text-color-prim);
+}
+
+.about .content .myProfile .profileInfo .aboutMe .aboutMeInfo .aboutMeInfoHead .infoTitle {
+  font-family: var(--font-prim);
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 28px;
+  text-transform: capitalize;
+  color: var(--text-color-prim);
+}
+
+.about .content .myProfile .profileInfo .aboutMe .aboutMeInfo .aboutMeInfoHead .aboutMeInfoOpen i {
+  font-size: 22px;
+  font-weight: 500;
+  color: var(--text-color-prim);
+}
+
+.about .content .myProfile .profileInfo .aboutMe .aboutMeInfo .aboutMeInfoDescription {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: var(--text-color-sec);
+}
+
+.about .content .myProfile .profileInfo .aboutMe .aboutMeInfo .aboutMeInfoDescription .skillsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.about .content .myProfile .profileInfo .aboutMe .aboutMeInfo .aboutMeInfoDescription .skillsContainer .skillsLabel {
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: var(--text-color-sec);
+  flex-shrink: 0;
+}
+
+.about .content .myProfile .profileInfo .aboutMe .aboutMeInfo .aboutMeInfoDescription .skillsContainer .skillsList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.about .content .myProfile .profileInfo .aboutMe .aboutMeInfo .aboutMeInfoDescription .skillsContainer .skillsList .skill {
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: var(--button-text);
+  background-color: var(--button-bg);
+  border-radius: 2px;
+  padding: 8px 12px;
+}
+
+.about .content .myProfile .profileInfo .aboutMe .resumeLink {
+  font-family: var(--font-prim);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  text-transform: capitalize;
+  text-decoration: underline;
+  color: var(--text-color-sec);
+}
+
+/* about */
+
+/* media */
+
+@media (max-width: 1450px) {
+  .about .content .myProfile {
+    grid-template-columns: 1fr;
+  }
+
+  .about .content .myProfile .profileImage .image {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 850px) {
+  .about .content .myProfile .profileInfo .name {
+    font-size: 32px;
+  }
+}
+
+/* media */
